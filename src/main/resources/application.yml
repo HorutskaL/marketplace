@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: postgres
+    password: postman
+    url: jdbc:postgresql://localhost:5432/marketplace
+  #
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
